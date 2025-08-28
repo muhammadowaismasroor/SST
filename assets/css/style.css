@@ -92,7 +92,13 @@
   object-fit: cover;
 }
 
-/*=================== Cards =============== */
+/* =================== Cards ===============
+.card{
+    background: url(/assets/images/slider3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
  .card-custom {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       border: none;
