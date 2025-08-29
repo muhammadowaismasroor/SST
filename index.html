@@ -2,158 +2,186 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sadat Samaji Tehreeq</title>
-    <!-- ========bootstrap ========== -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <!-- ============ custom css =========== -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sadat Samaji Tehreeq</title>
+  <!-- ========bootstrap ========== -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!-- ============ custom css =========== -->
+  <link rel="stylesheet" href="./assets/css/style.css">
   <!-- Font Awesome for icons -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
-<!--================ Header =============== -->
-<header class="bg-warning py-2 border-bottom header">
-  <div class="container">
-    <div class="row align-items-center">
-      
-      <!-- Left Side: Email & Phone -->
-      <div class="col-md-6 text-center text-md-start">
-        <a href="mailto:example@email.com" class="text-decoration-none me-3 text-dark">
-          <i class="fa-solid fa-envelope me-1"></i> example@email.com
-        </a>
-        <a href="tel:+1234567890" class="text-decoration-none text-dark">
-          <i class="fa-solid fa-phone me-1"></i> +123 456 7890
-        </a>
+  <!--================ Header =============== -->
+  <header class="bg-warning py-2 border-bottom header">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Left Side: Email & Phone -->
+        <div class="col-md-6 text-center text-md-start">
+          <a href="mailto:example@email.com" class="text-decoration-none me-3 text-dark">
+            <i class="fa-solid fa-envelope me-1"></i> example@email.com
+          </a>
+          <a href="tel:+1234567890" class="text-decoration-none text-dark">
+            <i class="fa-solid fa-phone me-1"></i> +123 456 7890
+          </a>
+        </div>
+
+        <!-- Right Side: Social Links -->
+        <div class="col-md-6 text-center text-md-end social-links ">
+          <a href="https://facebook.com" target="_blank" class="text-dark me-3 text-decoration-none">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="https://instagram.com" target="_blank" class="text-dark me-3 text-decoration-none">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://twitter.com" target="_blank" class="text-dark text-decoration-none">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================Navbar over Carousel================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SADAT SAMAJI TEHREEQ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Causes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="mainCarousel" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="./assets/images/slider1.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="carousel-caption">
+          <h1>Welcome to Sadat Samji Tehreeq</h1>
+          <p>Helping communities through charity, education, and development programs for a better tomorrow.</p>
+          <a href="#" class="btn btn-warning">Donate Us</a>
+          <a href="#" class="btn btn-outline-light">Read More</a>
+        </div>
       </div>
 
-      <!-- Right Side: Social Links -->
-      <div class="col-md-6 text-center text-md-end social-links ">
-        <a href="https://facebook.com" target="_blank" class="text-dark me-3 text-decoration-none">
-          <i class="fab fa-facebook-f"></i> Facebook
-        </a>
-        <a href="https://instagram.com" target="_blank" class="text-dark me-3 text-decoration-none">
-          <i class="fab fa-instagram"></i> Instagram
-        </a>
-        <a href="https://twitter.com" target="_blank" class="text-dark text-decoration-none">
-          <i class="fab fa-twitter"></i> Twitter
-        </a>
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="./assets/images/slider2.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="carousel-caption">
+          <h1>Together We Can Make a Difference</h1>
+          <p>Join hands to support the underprivileged and empower lives with hope and opportunities.</p>
+          <a href="#" class="btn btn-warning">Donate Us</a>
+          <a href="#" class="btn btn-outline-light">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="./assets/images/slider3.jpg" class="d-block w-100" alt="Slide 3">
+        <div class="carousel-caption">
+          <h1>We Believe in Humanity</h1>
+          <p>Our mission is to serve humanity by spreading love, kindness, and equal opportunities.</p>
+          <a href="#" class="btn btn-warning">Donate Us</a>
+          <a href="#" class="btn btn-outline-light">Read More</a>
+        </div>
       </div>
 
     </div>
-  </div>
-</header>
 
-<!-- ==================Navbar over Carousel================= -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">SADAT SAMAJI TEHREEQ</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Causes</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Carousel -->
-<div id="mainCarousel" class="carousel slide " data-bs-ride="carousel">
-  <div class="carousel-inner">
-
-    <!-- Slide 1 -->
-    <div class="carousel-item active">
-      <img src="./assets/images/slider1.jpg" class="d-block w-100" alt="Slide 1">
-      <div class="carousel-caption">
-        <h1>Welcome to Sadat Samji Tehreeq</h1>
-        <p>Helping communities through charity, education, and development programs for a better tomorrow.</p>
-        <a href="#" class="btn btn-warning">Donate Us</a>
-        <a href="#" class="btn btn-outline-light">Read More</a>
-      </div>
-    </div>
-
-    <!-- Slide 2 -->
-    <div class="carousel-item">
-      <img src="./assets/images/slider2.jpg" class="d-block w-100" alt="Slide 2">
-      <div class="carousel-caption">
-        <h1>Together We Can Make a Difference</h1>
-        <p>Join hands to support the underprivileged and empower lives with hope and opportunities.</p>
-        <a href="#" class="btn btn-warning">Donate Us</a>
-        <a href="#" class="btn btn-outline-light">Read More</a>
-      </div>
-    </div>
-
-    <!-- Slide 3 -->
-    <div class="carousel-item">
-      <img src="./assets/images/slider3.jpg" class="d-block w-100" alt="Slide 3">
-      <div class="carousel-caption">
-        <h1>We Believe in Humanity</h1>
-        <p>Our mission is to serve humanity by spreading love, kindness, and equal opportunities.</p>
-        <a href="#" class="btn btn-warning">Donate Us</a>
-        <a href="#" class="btn btn-outline-light">Read More</a>
-      </div>
-    </div>
-
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </div>
 
-  <!-- Carousel Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+  <!--================ Cards Section =============== -->
+  <div class="container py-5">
+    <div class="row g-4">
 
-<!--================ Cards Section =============== -->
-<div class="container py-5">
-  <div class="row g-4">
-
-    <!-- Card 1: Volunteer -->
-    <div class="col-md-4">
-      <div class="card card-custom bg-warning text-center p-4 h-100">
-        <div class="icon-box">
-          <i class="fas fa-hands-helping text-black"></i>  
+      <!-- Card 1: Volunteer -->
+      <div class="col-md-4">
+        <div class="card card-custom bg-warning text-center p-4 h-100">
+          <div class="icon-box">
+            <i class="fas fa-hands-helping"></i>
+          </div>
+          <h2 class="text-white display-5">Volunteer</h2>
+          <p>Join our community as a volunteer and help us bring positive change to society.</p>
+          <a href="#" class="btn btn-outline-dark mt-3">Read More >>></a>
         </div>
-        <h2 class="text-white display-5">Volunteer</h2>
-        <p>Join our community as a volunteer and help us bring positive change to society.</p>
-        <a href="#" class="btn btn-outline-dark mt-3">Read More >>></a>
       </div>
-    </div>
 
-    <!-- Card 2: Food and Water -->
-    <div class="col-md-4">
-      <div class="card card-custom bg-warning text-center p-4 h-100">
-        <div class="icon-box">
-          <i class="fas fa-utensils text-black"></i>
+      <!-- Card 2: Food and Water -->
+      <div class="col-md-4">
+        <div class="card card-custom bg-warning text-center p-4 h-100">
+          <div class="icon-box">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h2 class="text-white display-5">Food</h2>
+          <p>Providing food and clean drinking water to those in need is our top priority.</p>
+          <a href="#" class="btn btn-outline-dark mt-3">Read More >>></a>
         </div>
-         <h2 class="text-white display-5">Food</h2>
-        <p>Providing food and clean drinking water to those in need is our top priority.</p>
-        <a href="#" class="btn btn-outline-dark mt-3">Read More >>></a>
       </div>
-    </div>
 
-    <!-- Card 3: Health and Education -->
-    <div class="col-md-4">
-      <div class="card card-custom bg-warning text-center p-4 h-100">
-        <div class="icon-box">
-          <i class="fas fa-heartbeat text-black"></i>
+      <!-- Card 3: Health and Education -->
+      <div class="col-md-4">
+        <div class="card card-custom bg-warning text-center p-4 h-100">
+          <div class="icon-box">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <h2 class="text-white display-5">Health</h2>
+          <p>We focus on improving health services and education opportunities for everyone.</p>
+          <a href="#" class="btn btn-outline-dark mt-3">Read More >>></a>
         </div>
-         <h2 class="text-white display-5">Health</h2>
-        <p>We focus on improving health services and education opportunities for everyone.</p>
-        <a href="#" class="btn btn-outline-dark mt-3">Read More >>></a>
       </div>
     </div>
   </div>
+  <!--================ Welcome to Charity Section =============== -->
+  <section class="welcome-section">
+    <div class="welcome-overlay"></div>
+    <div class="container">
+      <div class="row align-items-center welcome-content">
+
+        <!-- Left Side (Text) -->
+        <div class="col-md-6">
+          <h2>Welcome to Our Charity</h2>
+          <p>
+            At Sadat Samji Tehreeq, we believe in creating a world where compassion and generosity shape the future.
+            Through food drives, health programs, and education support, we aim to bring hope and dignity to every
+            life.
+            Your support helps us turn small acts of kindness into lasting impact for communities in need.
+          </p>
+          <a href="#" class="btn btn-warning text-dark">More Details</a>
+        </div>
+
+        <!-- Right Side (Image) -->
+        <div class="col-md-6 text-center welcome-img mt-4 mt-md-0">
+          <img src="./assets/images/wel-charity.jpg" alt="Charity Image">
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 </body>
 <!-- =============== bootstrap js  ============ -->
