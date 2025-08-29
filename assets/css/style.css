@@ -186,9 +186,7 @@
   border-radius: 20px;
 }
 
-.welcome-content .btn:hover{
-
-}
+.welcome-content .btn:hover {}
 
 .welcome-img img {
   height: 50%;
@@ -202,47 +200,145 @@
   transform: scale(1.05);
 }
 
-
 /* ============ Gallery Section ============= */
-    .gallery-section {
-      padding: 80px 0;
-      background: #f8f9fa;
-    }
-    .gallery-card {
-      border: none;
-      border-radius: 15px;
-      overflow: hidden;
-      background: #fff;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-      transition: transform 0.35s ease, box-shadow 0.35s ease;
-    }
-    .gallery-card:hover {
-      transform: translateY(-10px) scale(1.02);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-    }
-    .gallery-card img {
-      height: 220px;
-      object-fit: cover;
-      transition: transform 0.5s ease;
-    }
-    .gallery-card:hover img {
-      transform: scale(1.1);
-    }
-    .event-meta {
-      font-size: 0.9rem;
-      color: #6c757d;
-      margin-bottom: 8px;
-    }
-    .gallery-card h5 {
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
-    .gallery-card p {
+.gallery-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.gallery-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.gallery-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-card img {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.1);
+}
+
+.event-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+
+.gallery-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.gallery-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.gallery-card .btn {
+  border-radius: 30px;
+  font-weight: 500;
+  padding: 8px 20px;
+}
+
+/* ============ Show in number section ============= */
+.stats-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('https://picsum.photos/1600/800?charity') center/cover no-repeat;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.stats-heading h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.stats-heading p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-top: 15px;
+  color: #e6e6e6;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.stat-box i {
+  font-size: 3rem;
+  color: #ffc107;
+  margin-bottom: 15px;
+}
+
+.stat-box h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-size: 1rem;
+  margin: 0;
+  color: #ddd;
+}
+
+/* ============ Footer ============= */
+.footer {
+      background: #212529;
+      color: #ddd;
+      padding: 60px 0 20px;
       font-size: 0.95rem;
-      color: #555;
     }
-    .gallery-card .btn {
-      border-radius: 30px;
-      font-weight: 500;
-      padding: 8px 20px;
+    .footer h5 {
+      color: #ffc107;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .footer a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .footer a:hover {
+      color: #ffc107;
+    }
+    .footer .social-icons a {
+      display: inline-block;
+      margin: 0 8px;
+      font-size: 1.3rem;
+      color: #ddd;
+      transition: color 0.3s ease;
+    }
+    .footer .social-icons a:hover {
+      color: #ffc107;
+    }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.15);
+      margin-top: 30px;
+      padding-top: 15px;
+      font-size: 0.85rem;
+      text-align: center;
+      color: #aaa;
     }
