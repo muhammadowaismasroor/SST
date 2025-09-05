@@ -1,3 +1,3 @@
 window.addEventListener("load", function () {
-    document.body.classList.add("loaded");
-  });
+  document.body.classList.add("loaded");
+});
