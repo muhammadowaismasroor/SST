@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- ============ custom css =========== -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- ============= custom css for only causes page ============ -->
+    <link rel="stylesheet" href="./assets/css/causes.css">
     <!-- Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -59,68 +61,163 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Causes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./causes.html">Causes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./gallary.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Hero -->
+    <section class="hero-section">
+        <h1>Our Causes</h1>
+    </section>
 
+    <!-- Causes -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="fw-bold">What We Stand For</h2>
+                <p class="text-muted">We focus on key areas that bring lasting impact to people’s lives.
+                    Explore our main causes below.</p>
+            </div>
 
-     <!-- ================= Footer ================= -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row gy-4">
+            <div class="row g-4">
+                <!-- Cause 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+                    <div class="cause-card">
+                        <img src="https://picsum.photos/600/400?food" alt="Food">
+                        <div class="cause-overlay">
+                            <i class="fas fa-utensils cause-icon"></i>
+                            <h5 class="cause-title">Food & Clean Water</h5>
+                            <p>We provide meals, ration packs, and safe water to ensure no one goes to bed hungry.</p>
+                            <a href="#" class="cause-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Logo & About -->
-        <div class="col-md-4">
-          <h5>Sadat Samji Tehreeq</h5>
-          <p>
-            We are dedicated to serving humanity through compassion,
-            action, and unity. Together, we bring hope and change
-            to those in need.
-          </p>
-          <div class="social-icons mt-3">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
+                <!-- Cause 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="cause-card">
+                        <img src="https://picsum.photos/600/400?health" alt="Health">
+                        <div class="cause-overlay">
+                            <i class="fas fa-heartbeat cause-icon"></i>
+                            <h5 class="cause-title">Health & Education</h5>
+                            <p>Free medical camps and schools help communities grow healthy and strong.</p>
+                            <a href="#" class="cause-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cause 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="cause-card">
+                        <img src="https://picsum.photos/600/400?child" alt="Orphan">
+                        <div class="cause-overlay">
+                            <i class="fas fa-child cause-icon"></i>
+                            <h5 class="cause-title">Orphan Support</h5>
+                            <p>We care for orphans by giving them shelter, education, and hope for a better tomorrow.
+                            </p>
+                            <a href="#" class="cause-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cause 4 -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+                    <div class="cause-card">
+                        <img src="https://picsum.photos/600/400?emergency" alt="Relief">
+                        <div class="cause-overlay">
+                            <i class="fas fa-hands-helping cause-icon"></i>
+                            <h5 class="cause-title">Emergency Relief</h5>
+                            <p>Disaster relief and crisis response with food, shelter, and medical support.</p>
+                            <a href="#" class="cause-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cause 5 -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="cause-card">
+                        <img src="https://picsum.photos/600/400?women" alt="Women">
+                        <div class="cause-overlay">
+                            <i class="fas fa-female cause-icon"></i>
+                            <h5 class="cause-title">Women Empowerment</h5>
+                            <p>Helping women gain independence through education and vocational training.</p>
+                            <a href="#" class="cause-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cause 6 -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="cause-card">
+                        <img src="https://picsum.photos/600/400?environment" alt="Environment">
+                        <div class="cause-overlay">
+                            <i class="fas fa-leaf cause-icon"></i>
+                            <h5 class="cause-title">Environment Protection</h5>
+                            <p>We protect nature through tree plantation and clean water projects.</p>
+                            <a href="#" class="cause-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>  
 
-        <!-- Quick Links -->
-        <div class="col-md-4">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./aboutus.html">About Us</a></li>
-            <li><a href="./causes.html">Causes</a></li>
-            <li><a href="./gallary.html">Gallery</a></li>
-            <li><a href="./news.html">News</a></li>
-            <li><a href="./contactus.html">Contact</a></li>
-          </ul>
+    <!-- ================= Footer ================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Logo & About -->
+                <div class="col-md-4">
+                    <h5>Sadat Samji Tehreeq</h5>
+                    <p>
+                        We are dedicated to serving humanity through compassion,
+                        action, and unity. Together, we bring hope and change
+                        to those in need.
+                    </p>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                        <li><a href="./causes.html">Causes</a></li>
+                        <li><a href="./gallary.html">Gallery</a></li>
+                        <li><a href="./news.html">News</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fa-solid fa-location-dot me-2"></i>123 Charity Street, Karachi, Pakistan</p>
+                    <p><i class="fa-solid fa-phone me-2"></i>+92 300 1234567</p>
+                    <p><i class="fa-solid fa-envelope me-2"></i>info@sadatsamji.org</p>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom mt-4">
+                <p>&copy; 2025 Sadat Samji Tehreeq. All Rights Reserved.</p>
+            </div>
         </div>
-
-        <!-- Contact Info -->
-        <div class="col-md-4">
-          <h5>Contact Us</h5>
-          <p><i class="fa-solid fa-location-dot me-2"></i>123 Charity Street, Karachi, Pakistan</p>
-          <p><i class="fa-solid fa-phone me-2"></i>+92 300 1234567</p>
-          <p><i class="fa-solid fa-envelope me-2"></i>info@sadatsamji.org</p>
-        </div>
-
-      </div>
-
-      <!-- Footer Bottom -->
-      <div class="footer-bottom mt-4">
-        <p>&copy; 2025 Sadat Samji Tehreeq. All Rights Reserved.</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 </body>
 <!-- =============== bootstrap js  ============ -->
