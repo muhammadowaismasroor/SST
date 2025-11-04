@@ -1,7 +1,7 @@
 /* Hero */
 .hero-section {
     position: relative;
-    background: url('https://picsum.photos/1920/800?charity,help') center/cover no-repeat;
+    background: url('../images/causes-hero.jpg') center/cover no-repeat;
     height: 60vh;
     display: flex;
     align-items: center;
