@@ -1,7 +1,7 @@
   /* Hero Banner */
     .hero-section {
       position: relative;
-      background: url('https://picsum.photos/1920/800?charity') center/cover no-repeat;
+      background: url('../images/about-hero.jpg') center/cover no-repeat;
       height: 70vh;
       display: flex;
       justify-content: center;
